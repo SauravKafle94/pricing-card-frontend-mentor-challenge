@@ -10,8 +10,8 @@ html{
 }
 
 #card{
-    width:700px;
-    height: 430px;
+    /* width:700px;
+    height: 430px; */
     /* border: 3px solid blue; */
     box-shadow: 2px 1px 28px 5px rgba(0,0,0,0.47);
     border-radius: 7px;
@@ -36,7 +36,8 @@ html{
     width: 50%;
     height: 100%;
     vertical-align: top;
-    padding: 21px;
+    padding: 20px;
+    padding-bottom: 32.5px;
 }
 #price{
     font-weight: 700;
@@ -47,8 +48,8 @@ html{
     display: inline-block;
     width: 50%;
     height: 100%;
-    vertical-align: top;
-    padding: 21px;
+    vertical-align: top; 
+    padding: 20px;
 }
 
 #card #top h2{
@@ -93,5 +94,13 @@ ul{
     padding: 0;
     font-size: 0.9rem;
     opacity: 0.8;
+}
+
+@media only screen and (max-width: 600px){
+    #bottomRight, #bottomLeft, #card{
+        width: 100%;
+        height: auto;
+    }
+    
 }
 
