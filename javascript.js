@@ -1,3 +1,3 @@
 function alertUser(){
-    alert('Okay, get your money ready! <33')
+    alert('I know that you do not have this much money! sorry <33')
 }
